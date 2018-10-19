@@ -1,12 +1,12 @@
-package cf.alpaca202.alpacacommerce;
+package com.example.alpacaweb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AlpacacommerceApplication {
+public class AlpacaWebApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AlpacacommerceApplication.class, args);
+		SpringApplication.run(AlpacaWebApplication.class, args);
 	}
 }
