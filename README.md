@@ -1,26 +1,21 @@
-# alpaca-web
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
+# Software Process Alpaca Team Project
+## Backend
+## Frontend
+### Setup file before develop
+1. install `node_module` with command `npm install` or `yarn`
+### Start service for development
 ```
 yarn run serve
 ```
-
-### Compiles and minifies for production
+### Build code for production
 ```
 yarn run build
 ```
-
 ### Run your tests
 ```
 yarn run test
 ```
-
-### Lints and fixes files
+### Check format code and fixes files
 ```
 yarn run lint
 ```
