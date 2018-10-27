@@ -1,0 +1,5 @@
+sudo docker build -t alpacacommerce-v0.1 .
+
+docker run -d -p 8081:8081 --env DB_URL=(Your DB URL and schema) \ 
+                            --env DB_USERNAME=(Your DB User) \
+                            --env DB_PASSWORD=(Your DB Password) alpacacommerce-v0.1;
